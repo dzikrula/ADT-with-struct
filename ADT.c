@@ -30,7 +30,7 @@ int main(void)
   printf("Hasil: \n");
  
   printf("%s kuliah di %s ", Mahasiswa01.nama, Mahasiswa01.kuliah);
-  printf("dengan NPM %i\n", Mahasiswa01.NPM);
+  printf("dengan NPM %i yang berstatus %s\n", Mahasiswa01.NPM, Mahasiswa01.StatusMahasiswa);
  
  
  
