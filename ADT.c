@@ -21,12 +21,12 @@ int main(void)
   printf("Kuliah: ");
   gets(Mahasiswa01.kuliah);
  
-  printf("NPM: ");
-  scanf("%i",&Mahasiswa01.NPM);
-  
   printf("StatusMahasiswa: ");
   gets(Mahasiswa01.StatusMahasiswa);
  
+  printf("NPM: ");
+  scanf("%i",&Mahasiswa01.NPM);
+  
   printf("Hasil: \n");
  
   printf("%s kuliah di %s ", Mahasiswa01.nama, Mahasiswa01.kuliah);
