@@ -32,15 +32,7 @@ int main(void)
   printf("%s kuliah di %s ", Mahasiswa01.nama, Mahasiswa01.kuliah);
   printf("dengan NPM %i\n", Mahasiswa01.NPM);
  
-  bool a,b;
-  a = true;
-  b = false;
-  if(a){
-  	printf("code:\n");
-	  }
-  if(b){
-  	printf("Not Found\n");
-  }
+ 
  
   return 0;
 }	
