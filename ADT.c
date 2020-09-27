@@ -1,36 +1,37 @@
 #include <stdio.h>
-#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
  
-struct Mahasiswa {
-   char  nama[50];
-   char  kuliah[50];
-   unsigned int  NPM;
-   char  StatusMahasiswa[50];
-  };
+struct Elektronik {
+   char Jenis[50];
+   char merek[50];
+   unsigned int tipe[50];
+   unsigned int	 RAM[50];
+   };
  
 int main(void)
 {
-  struct Mahasiswa Mahasiswa01; 
+  struct Elektronik Elektronik01; 
  
-  printf("***** Pendaftaran Mahasiswa Baru *****\n");
+  printf("***** PENJUALAN ELEKTRONIK *****\n");
   printf("\n");
   
-  printf("Nama: ");
-  gets(Mahasiswa01.nama);
+  printf("jenis: ");
+  gets(Elektronik01.Jenis);
+  
+  printf("merek: ");
+  gets(Elektronik01.merek);
  
-  printf("Kuliah: ");
-  gets(Mahasiswa01.kuliah);
+  printf("tipe: ");
+  gets(Elektronik01.tipe);
  
-  printf("StatusMahasiswa: ");
-  gets(Mahasiswa01.StatusMahasiswa);
- 
-  printf("NPM: ");
-  scanf("%i",&Mahasiswa01.NPM);
+  printf("RAM: ");
+  gets(Elektronik01.RAM);
   
   printf("Hasil: \n");
  
-  printf("%s kuliah di %s ", Mahasiswa01.nama, Mahasiswa01.kuliah);
-  printf("dengan NPM %i yang berstatus %s\n", Mahasiswa01.NPM, Mahasiswa01.StatusMahasiswa);
+  printf("pencarian elektronik jenis %i dengan merek %s ", Elektronik01.Jenis, Elektronik01.merek);
+  printf("yang bertipe %s dengan RAM %s ", Elektronik01.tipe, Elektronik01.RAM);
  
  
  
