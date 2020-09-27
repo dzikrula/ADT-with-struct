@@ -16,16 +16,16 @@ int main(void)
   printf("***** PENJUALAN ELEKTRONIK *****\n");
   printf("\n");
   
-  printf("jenis: ");
+  printf("jenis elektronik: ");
   gets(Elektronik01.Jenis);
   
   printf("merek: ");
   gets(Elektronik01.merek);
  
-  printf("tipe: ");
+  printf("tipe (isikan angka saja): ");
   gets(Elektronik01.tipe);
  
-  printf("RAM: ");
+  printf("RAM (isikan angka saja): ");
   gets(Elektronik01.RAM);
   
   printf("Hasil: \n");
