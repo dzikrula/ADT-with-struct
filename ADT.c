@@ -1,3 +1,5 @@
+link https://github.com/dzikrula/ADT-with-struct.git (hapus jika mau compile dan run program)
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
